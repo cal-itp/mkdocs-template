@@ -13,7 +13,7 @@ cd mkdocs-template
 ## Build the image
 
 ```bash
-docker build -t mkdocs-template .
+docker build -t mkdocs-template -f docs/Dockerfile .
 ```
 
 ## Run a container

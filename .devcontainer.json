@@ -2,7 +2,7 @@
 {
     "name": "mkdocs-template",
     "build": {
-        "dockerfile": "Dockerfile",
+        "dockerfile": "docs/Dockerfile",
         "context": ".",
     },
 
