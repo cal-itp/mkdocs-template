@@ -30,9 +30,12 @@ Once the above steps are complete and the new repository is ready, it's a good i
 
 This includes:
 
-* Review the `LICENSE` file and ensure it is appropriate for your new project. If not, update it with a more appropriate
+* **Review** the `LICENSE` file and ensure it is appropriate for your new project. If not, update it with a more appropriate
   license before continuing.
-* **Find+Replace** instances of `mkdocs-template` with the name of your new repository
+* **Find+Replace** instances of `mkdocs-template` with the name of your new repository.
+* **Edit** the `docs/.pages` file to update your site's navigation menu, or delete the file to generate a navigation menu for the
+  site automatically. Read more about the
+  [`mkdocs-awesome-pages-plugin`](https://github.com/lukasgeiter/mkdocs-awesome-pages-plugin/#customize-navigation).
 
 ## How does this work?
 
