@@ -22,7 +22,7 @@ jobs:
     name: Setup
     runs-on: ubuntu-latest
     needs: precheck
-    if: $ {{ !needs.precheck.outputs.setup_done }}
+    if: ${{ !needs.precheck.outputs.setup_done }}
     steps:
       - name: Create repository secret
         uses: gliech/create-github-secret-action@v1
