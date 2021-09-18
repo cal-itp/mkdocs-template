@@ -1,17 +1,17 @@
 # Getting started
 
-This repository serves as a [GitHub template repository][gh-template-repo] for Cal-ITP.
+This is a template repository to enable rapid creation of documentation sites built using [`mkdocs`][mkdocs] and served via
+GitHub Pages under Cal-ITP's `docs.calitp.org` domain.
 
-## Usage
+## Create new site from template
 
-Follow these steps to create a new repository that uses this repository as a template. Adapted from
-[GitHub's documentation][gh-template-repo-howto].
+Follow these steps to create a new repository that uses this repository as a template. Content from the new repository will be
+published online at `https://docs.calitp.org/repo-name`.
 
-1. On GitHub, navigate to the main page of this template repository:  
-[`https://github.com/cal-itp/mkdocs-template`](https://github.com/cal-itp/mkdocs-template)
+Adapted from [GitHub's documentation][gh-template-repo-howto].
 
-1. Above the file list, click **Use this template**
-![Screenshot showing "Use this template" button](img/use-template-button.png)
+1. Head to the *generate repository* page for this template:  
+<https://github.com/cal-itp/mkdocs-template/generate>
 
 1. Configure the new repository's details, including the **Owner** (`cal-itp`), **Name**, and **Description**
 ![Screenshot showing creating a new repository from mkdocs-template](img/new-repo-init.png)
@@ -24,12 +24,18 @@ Follow these steps to create a new repository that uses this repository as a tem
 
 1. Click **Create repository from template** to finish and create the new repository
 
-1. _IMPORTANT:_ review the `LICENSE` file and ensure it is appropriate for your new project. If not, update it with a more
-appropriate license before continuing.
+## Finalize the new site
 
-1. Once the new repository is ready, it's a good idea to Find+Replace instances of `mkdocs-template` within the content
-with the name of your new repository. This ensures instructions like [Running locally](./running-locally.md) continue to work
-in the new project and content like the website name and URL are updated accordingly.
+Once the above steps are complete and the new repository is ready, it's a good idea to clean up the remnants of the template.
+
+This includes:
+
+* **Review** the `LICENSE` file and ensure it is appropriate for your new project. If not, update it with a more appropriate
+  license before continuing.
+* **Find+Replace** instances of `mkdocs-template` with the name of your new repository.
+* **Edit** the `docs/.pages` file to update your site's navigation menu, or delete the file to generate a navigation menu for the
+  site automatically. Read more about the
+  [`mkdocs-awesome-pages-plugin`](https://github.com/lukasgeiter/mkdocs-awesome-pages-plugin/#customize-navigation).
 
 ## How does this work?
 
