@@ -13,7 +13,7 @@ cd mkdocs-template
 ## Build the image
 
 ```bash
-docker build -t mkdocs-template -f docs/Dockerfile .
+docker build -t mkdocs-template -f .devcontainer/Dockerfile .
 ```
 
 ## Run a container
@@ -24,12 +24,18 @@ docker run -p 8000:8000 mkdocs-template
 
 The site should be available at <http://localhost:8000>.
 
-## VS Code Remote Containers
+## VS Code Devcontainer
 
-This repository comes with a [VS Code Remote Containers](https://code.visualstudio.com/docs/remote/containers)
-configuration file.
+This repository comes with a [VS Code Devcontainers](https://code.visualstudio.com/docs/remote/containers) configuration.
 
 Once you clone the repository locally, simply open it within VS Code, which will
-prompt you to re-open the repository within the Remote Container.
+prompt you to re-open the repository within the Devcontainer.
 
-Once running inside the Remote Container, the site is available at <http://localhost:8000>.
+Once the Devcontainer is running, bring up the Command Palette and enter:
+
+```console
+> Tasks: Run Build Task
+```
+
+To build the site and launch a local server. The site is running on <http://localhost> at a randomly assigned port; see the
+VS Code `Ports` tab for information.

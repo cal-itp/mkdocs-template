@@ -10,17 +10,17 @@ published online at `https://docs.calitp.org/repo-name`.
 
 Adapted from [GitHub's documentation][gh-template-repo-howto].
 
-1. Head to the *generate repository* page for this template:  
-<https://github.com/cal-itp/mkdocs-template/generate>
+1. Head to the _generate repository_ page for this template:
+   <https://github.com/cal-itp/mkdocs-template/generate>
 
 1. Configure the new repository's details, including the **Owner** (`cal-itp`), **Name**, and **Description**
-![Screenshot showing creating a new repository from mkdocs-template](img/new-repo-init.png)
+   ![Screenshot showing creating a new repository from mkdocs-template](img/new-repo-init.png)
 
 1. Ensure the new repository's visiblity is set to **Public**
-![Screenshot showing the new repository's visibility set to Public](img/new-repo-visibility.png)
+   ![Screenshot showing the new repository's visibility set to Public](img/new-repo-visibility.png)
 
 1. Ensure the checkbox to **Include all branches** is checked
-![Screenshot showing the Include all branches checkbox checked](img/new-repo-all-branches.png)
+   ![Screenshot showing the Include all branches checkbox checked](img/new-repo-all-branches.png)
 
 1. Click **Create repository from template** to finish and create the new repository
 
@@ -30,10 +30,10 @@ Once the above steps are complete and the new repository is ready, it's a good i
 
 This includes:
 
-* **Review** the `LICENSE` file and ensure it is appropriate for your new project. If not, update it with a more appropriate
+- **Review** the `LICENSE` file and ensure it is appropriate for your new project. If not, update it with a more appropriate
   license before continuing.
-* **Find+Replace** instances of `mkdocs-template` with the name of your new repository.
-* **Edit** the `docs/.pages` file to update your site's navigation menu, or delete the file to generate a navigation menu for the
+- **Find+Replace** instances of `mkdocs-template` with the name of your new repository.
+- **Edit** the `docs/.pages` file to update your site's navigation menu, or delete the file to generate a navigation menu for the
   site automatically. Read more about the
   [`mkdocs-awesome-pages-plugin`](https://github.com/lukasgeiter/mkdocs-awesome-pages-plugin/#customize-navigation).
 
