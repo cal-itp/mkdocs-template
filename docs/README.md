@@ -73,7 +73,6 @@ GitHub Pages enabled, will have an automatic domain at `https://docs.calitp.org/
 [cal-itp-org]: https://github.com/cal-itp
 [gh-actions]: https://github.com/features/actions
 [gh-pages]: https://pages.github.com/
-[gh-template-repo]: https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/creating-a-repository-from-a-template
 [gh-template-repo-howto]: https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/creating-a-repository-from-a-template#creating-a-repository-from-a-template
 [mkdocs]: https://www.mkdocs.org/
 [mkdocs-deploy-gh-pages]: https://github.com/mhausenblas/mkdocs-deploy-gh-pages
